@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header div {
+    font-family: "Bungee Spice", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: url("../img/bg-header.png") no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+    position: relative; 
+}
+
+.logo-container {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logoedicion {
+    max-width: 250px;
+    height: auto;
+}
+
+#hero {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.JPedicion {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto; 
+    display: block; 
+}
+
+.imagenes_saga h3 {
+    font-family: "Love Ya Like A Sister", cursive; 
+    font-size: 15px;
+    color: #FFF; 
+    text-align: center; 
+    margin-top: 10px; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+    background-color: #FFF;
+}
+
+
+#hero h2 {
+    margin-top: 0;
+    font-size: 50px;
+    color: yellow;
+    font-weight: 500; 
+}
+
+#hero h1 {
+    font-size: 30px; 
+    margin-bottom: 50px;
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+header nav {
+    margin-top: 25px;
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li a {
+    color: #fff;
+    background-color: #FF1200; 
+    border: 3px solid #FFEB00; 
+    border-radius: 5px;
+    margin: 0 12px;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    background-color: darkred; 
+    border-bottom: none; 
+}
+
+#Sinopsis {
+    background-color: #112229;
+}
+
+.c1 h2 {
+    font-family: "Bungee Spice", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 0;
+    font-size: 80px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.c2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 15px solid black; 
+    padding: 30px;
+    background-color: white; 
+    margin: 50px;
+    border-radius: 15px; 
+}
+
+.c1 {
+    background-color: #112229; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    max-width: 50%; 
+    height: 800px;
+    padding: 30px;
+}
+
+.c1 p {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white ;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 25px;   
+}
+
+.imagen-c1 {
+    max-width: 45%; 
+    border-radius: 10px; 
+    margin-left: 20px; 
+    transition: transform 0.3s ease; 
+}
+
+.imagen-c1:hover {
+    transform: scale(0.9); 
+}
+
+#La_saga {
+    background:url("../img/bckgr2.png");
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+    position: relative; 
+}
+
+.lasaga {
+    font-family: "Bungee Spice", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 80px;
+}
+
+.sinopsis {
+    text-align: center;
+    padding: 20px;
+}
+
+.imagenes_saga {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.imageneditar {
+    width: 249px;
+    height: auto;
+}
+
+#libro {
+    background: #585862; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.cuadro1lib, .cuadro2lib {
+    background-color: white; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-right: 20px; 
+}
+
+.cuadro2lib {
+    margin-right: 0; 
+}
+
+
+.imagenlibro {
+    width: auto;
+    height: 600px;
+}
+
+.cuadro2lib h2{
+    font-family: "Bungee Spice", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.cuadro2lib p{
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #585862 ;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 25px;  
+    margin-bottom: 30px;
+}
+
+#similares {
+    background-color: black;
+    padding: 20px; 
+    justify-content: space-between; 
+}
+
+.PelisSimilares {
+    font-family: "Bungee Spice", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pelis {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.imagenalien, .imagenmono, .imagenreevil, .imagengodzilla {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.imagenalien:hover, 
+.imagenmono:hover, 
+.imagenreevil:hover, 
+.imagengodzilla:hover {
+    transform: scale(1.1);
+}
+
+.text1, .text2, .text3, .text4 {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contacto {
+    background: url("../img/giphy.gif") no-repeat center center; 
+    background-size: cover; 
+    width: 100%;
+    height: 80vh;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#contacto form {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.campo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.campo input, .campo select {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    width: 48%;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FF1200;
+    border: 10px solid #FFEB00;
+    color: white;
+    font-size: 22px;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFEB00;
+}
+
+#contacto h2{
+    font-family: "Bungee Spice", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#contacto p{
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    font-size: 18px;
+}
+
+footer {
+    background: black;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
